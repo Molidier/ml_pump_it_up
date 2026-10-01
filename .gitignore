@@ -1,0 +1,24 @@
+# Competition data (large, and DrivenData terms don't allow redistribution)
+data/
+data.zip
+
+# Generated artifacts (plots, saved models) — reproducible from the notebook
+models/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Claude Code local state
+.claude/scheduled_tasks.lock
